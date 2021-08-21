@@ -1,0 +1,141 @@
+html {
+background: linear-gradient(to bottom right, #31EAF4 , #29ED75);
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+.text1{
+   text-align:center;
+   color: #1D19E1;
+   font-family: Impact, fantasy;
+   font-size: 90px;
+   font-weight: medium;
+   line-height: 125px
+}
+
+.my-hr-line {
+    position: relative;
+    left: -15px;
+    width: calc(100% + 30px);
+    height: 10px;
+    border: 2px solid black;
+    background: black;
+}
+
+.popup .overlay {
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100vw;
+  height:100vh;
+  background:rgba(0,0,0,0.7);
+  z-index:1;
+  display:none;
+}
+
+.popup .content {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%) scale(0);
+  width:95%;
+  max-width:500px;
+  height:300px;
+  z-index:2;
+  text-align:center;
+  padding:20px;
+  box-sizing:border-box;
+  font-family:"Open Sans",sans-serif;
+  background-color: rgba(0,0,0,.5);
+  color: #fff;
+}
+
+.popup .close-btn {
+  cursor:pointer;
+  position:absolute;
+  right:20px;
+  top:20px;
+  width:30px;
+  height:30px;
+  background:white;
+  color:black;
+  font-size:45px;
+  font-weight:600;
+  line-height:30px;
+  text-align:center;
+  border-radius:50%;
+  background-color: rgba(0,0,0,.5);
+  color: #fff;
+}
+
+.popup.active .overlay {
+  display:block;
+}
+
+.popup.active .content {
+  transition:all 300ms ease-in-out;
+  transform:translate(-50%,-50%) scale(1);
+}
+
+.B8 {
+  position:absolute;
+  top:10.5%;
+  left:10%;
+  transform:translate(-50%,-50%);
+  padding:15px;
+  font-size:80px;
+  border:0px solid #222;
+  color:#222;
+  text-transform:uppercase;
+  font-weight:600;
+  background-color: Transparent;
+}
+
+.h2{
+  text-align:center;
+  color: Black;
+  font-family: Impact, fantasy;
+  font-size: 45px;
+  font-weight: thin;
+  line-height: 10px;
+}
+
+
+a {
+ text-decoration: none;
+ color: white;
+}
+
+
+.p1{
+  text-align:center;
+  color:rgba(0,0,0,.5);;
+  font-family: Impact, fantasy;
+  font-size: 45px;
+  font-weight: thin;
+  line-height: 10px;
+}
+
+.b9{
+  text-align:center;
+  color: Black;
+  font-family: Impact, fantasy;
+  font-size: 45px;
+  font-weight: thin;
+  line-height: 10px;
+  background:Transparent;
+  border:0px;
+}
+
+.contact-form{
+  text-align:center;
+}
+
+.tag{
+  font-family: inherit;
+ font-size: 1.3rem;
+ color: $white;
+ background: transparent;
+ transition: border-color 0.2s;
+   font-size: 50px;
+}
